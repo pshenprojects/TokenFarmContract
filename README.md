@@ -7,4 +7,6 @@ The contract deployments are handled with [Brownie](https://github.com/eth-brown
 
 Although the video tutorial was used as reference, no code was actually copied from their provided repositories.
 
-The brownie-config.yaml file is very barebones, as this work was only tested on a Ganache chain. Deploying on a more permanent basis, either to a test net or a real blockchain with real money involved, will require some additional code to handle and reference existing token and price feed contracts.
+The brownie-config.yaml file is very barebones, as this work was only tested on a [Ganache](https://github.com/trufflesuite/ganache-ui) chain. Deploying on a more permanent basis, either to a testnet or a more real blockchain with real money (or money-equivalent) involved, will require some additional code to handle and reference existing token and price feed contracts.
+
+The front end website works with the MetaMask browser extension, which is required to interact with it.

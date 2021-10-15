@@ -1,7 +1,7 @@
 # TokenFarmContract
 Following the final tutorial at https://www.youtube.com/watch?v=M576WGiDBdQ
 
-Smart contracts written in Solidity to be deployed on a compatible blockchain. This 'Token Farm' holds compatible tokens from users, and can pay out in its own token based on the price in USD of the users' holdings, determined through Chainlink's price feeds.
+Smart contracts written in Solidity to be deployed on a compatible blockchain. This 'Token Farm' holds compatible tokens from users, and can pay out in its own token based on the price in USD of the users' holdings, determined through [Chainlink's](https://github.com/smartcontractkit/chainlink) price feeds.
 
 The contract deployments are handled with [Brownie](https://github.com/eth-brownie/brownie) and written in Python, while the front-end interface is done with React programming in Typescript. If downloading and running this code yourself, make sure to install the node module dependencies.
 

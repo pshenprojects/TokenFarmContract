@@ -1,3 +1,5 @@
 export { useStakeTokens } from "./useStakeTokens"
 export { useUnstakeTokens } from "./useUnstakeTokens"
 export { useReadTokenBalance } from "./useReadTokenBalance"
+export { useGetOwner } from "./useGetOwner"
+export { useIssueTokens } from "./useIssueTokens"

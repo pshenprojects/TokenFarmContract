@@ -7,6 +7,7 @@ import dai from "../dai.png"
 import weth from "../eth.png"
 import { YourWallet } from "./yourWallet/YourWallet"
 import { makeStyles } from "@material-ui/core"
+import { OwnerPanel } from "./OwnerPanel"
 
 export type Token = {
     image: string
@@ -41,6 +42,7 @@ export const Main = () => {
     return (<>
         <h2 className={classes.title}>Dapp Token App</h2>
         <YourWallet supportedTokens={supportedTokens} />
+        <OwnerPanel />
     </>
     )
 }
